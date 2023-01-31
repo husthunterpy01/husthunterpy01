@@ -15,7 +15,7 @@ My name is Minh Dang. I am a Senior Student in Hanoi University of Science and T
 </a>
 <a href="https://github.com/husthunterpy01/Movie-Recommendation-System/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Movie-Recommendation-System&theme=merko" />
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Movie-Recommendation-System&theme=dark" />
 </a>
 
 <a href="https://github.com/husthunterpy01/VHDL_Proj/">

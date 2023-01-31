@@ -11,7 +11,7 @@ My name is Minh Dang. I am a Senior Student in Hanoi University of Science and T
 
 <a href="https://github.com/husthunterpy01/Bike-rental-system/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Bike-rental-system&theme=merko" />
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Bike-rental-system&theme=dracula" />
 </a>
 <a href="https://github.com/husthunterpy01/Movie-Recommendation-System/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->

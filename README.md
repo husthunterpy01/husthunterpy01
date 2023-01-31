@@ -1,7 +1,12 @@
 ### Hi there 👋
 
 ### WELCOME TO MY PAGE 👋👋👋
-My name is Minh Dang. I am a Senior Student in Hanoi University of Science and Technology, majoring in Electronic and Telecommunication. I am looking for chances to become a Data Engineer or DevSecops engineers.<br>
+My name is Minh Dang. I am a Senior Student in Hanoi University of Science and Technology, majoring in Electronic and Telecommunication. I hope to become an expert in programming and different technologies approaches.<br>
+Skill illulstrations:<br>
+**Programming languages**: Python, Java, C/C++, Assembly <br>
+**OS**: Linux,, Windows.<br>
+**Framework**: Pytorch, Numpy, Pandas, Matplotlib. <br>
+**Tools**: Wireshark, Git, Docker. <br>
 ## 📫 How to reach me: 
 
 [![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/minh-dang-tran-nhat-a19420251/) 

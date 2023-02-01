@@ -25,9 +25,9 @@ Skill illulstrations:<br>
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Movie-Recommendation-System&theme=dark" />
 </a>
 
-<a href="https://github.com/husthunterpy01/VHDL_Proj/">
+<a href="https://github.com/husthunterpy01/Project2/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=VHDL_Proj&theme=gruvbox" />
+  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Project2&theme=gruvbox" />
 </a>    
 
 

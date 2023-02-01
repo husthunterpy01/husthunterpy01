@@ -20,7 +20,6 @@ Skill illulstrations:<br>
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Bike-rental-system&theme=dracula" />
 </a>
-
 <a href="https://github.com/husthunterpy01/Movie-Recommendation-System/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Movie-Recommendation-System&theme=dark" />
@@ -31,7 +30,6 @@ Skill illulstrations:<br>
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=Project2&theme=gruvbox" />
 </a>    
-
 <a href="https://github.com/husthunterpy01/VHDL_Proj/">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=husthunterpy01&repo=VHDL_Proj&theme=gruvbox" />

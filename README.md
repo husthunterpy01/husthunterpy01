@@ -2,7 +2,7 @@
 
 ### WELCOME TO MY PAGE 👋👋👋
 My name is Minh Dang. I am a Senior Student in Hanoi University of Science and Technology, majoring in Electronic and Telecommunication. I hope to become an expert in programming and different technologies approaches.<br>
-Skill illulstrations:<br>
+Skill illustrations:<br>
 **Programming languages**: Python, Java, C/C++, Assembly <br>
 **OS**: Linux,, Windows.<br>
 **Framework**: Pytorch, Numpy, Pandas, Matplotlib. <br>

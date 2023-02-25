@@ -7,7 +7,6 @@ My name is Minh Dang. I am a Senior Student in Hanoi University of Science and T
 
 # 📊GitHub Stats :
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=husthunterpy01&theme=tokyonight)
 
 ## 📫 How to reach me: 
 

@@ -18,10 +18,9 @@ My name is Jonathan Dang.
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=husthunterpy01&layout=donut&langs_count=10)](https://github.com/husthunterpy01/github-readme-stats)
 
 ## 📫 How to reach me: 
-
-[![Linkedin](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/minh-dang-tran-nhat-a19420251/) 
-[![GitHub](https://i.stack.imgur.com/tskMh.png) GitHub](https://github.com/husthunterpy01) 
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/minh-dang-tran-nhat-jonathan-dang-a19420251/) 
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=husthunterpy01&limit=5&theme=cobalt2&combine_all_yearly_contributions=true)
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=husthunterpy01&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
 

@@ -5,7 +5,7 @@ My name is Jonathan Dang.
 
 - 🏫 I'm a Graduate Student from [Hanoi University of Science and Technology](https://hust.edu.vn/), majoring in Electronics and Telecommunications Engineering, my works in the undergraduate program mainly focus on AI solution for anomaly detection and speech processing for agriculture domain
 
-- 🏢 I currently work as a Backend Developer in [FPT Software](https://fptsoftware.com/), a top 20 Vietnamese Enterprises, with the main techstack in .NET, SQL and Azure.
+- 🏢 I currently work as a Backend Developer in [FPT Software](https://fptsoftware.com/), a top 20 Vietnamese Technology Enterprises, with the main techstack in .NET, SQL and Azure.
 
 - 🚵 I am seeking for a chance to study the PostGraduate program to horn my practical skills, which will act as a precursor to make an advancement in my career and make a significant impact in the domain of Data and AI engineering.
 # 💻 Tech Stack:

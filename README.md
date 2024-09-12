@@ -1,4 +1,3 @@
-### Hi there 👋
 ![Header](./backend_background.png)
 ### WELCOME TO MY PAGE 👋👋👋
 My name is Jonathan Dang. 

@@ -5,7 +5,7 @@ My name is Jonathan Dang.
 
 - 🏫 I'm a Graduate Student from [Hanoi University of Science and Technology](https://hust.edu.vn/), majoring in Electronics and Telecommunications Engineering, my works in the undergraduate program mainly focus on AI solution for anomaly detection and speech processing for agriculture domain
 - 🏢 Recently, I had over 1 year experience as a Backend Developer in [FPT Software](https://fptsoftware.com/), a top 20 Vietnamese Technology Enterprises, with the main techstack in .NET, SQL and Azure.
-- 🌱 Currently, I am embarking on a Master Degree at [The University of Western Australia](CjwKCAjw_4S3BhAAEiwA_64Yho_M5EntpygeLxLX3Y_hq9Bg7ymv2uCfw5VRNMOxqZL3aPe_dx2MyBoCXKsQAvD_BwE), a top 100 university in [QS Ranking](https://www.topuniversities.com/universities/university-western-australia), with the specialization in Artificial Intelligence
+- 🌱 Currently, I am embarking on the Master Program of Information Technology at [The University of Western Australia](CjwKCAjw_4S3BhAAEiwA_64Yho_M5EntpygeLxLX3Y_hq9Bg7ymv2uCfw5VRNMOxqZL3aPe_dx2MyBoCXKsQAvD_BwE), a top 100 university in [QS Ranking](https://www.topuniversities.com/universities/university-western-australia), with the specialization in Artificial Intelligence
 - 🚵 I am seeking for a chance to horn my practical skills through project, open source contribution or non-profit technological project, which will act as a precursor to make an advancement in my career as a Software Engineer with the focus on Data and AI engineering in Australia or Vietnam remotely.
 # 💻 Tech Stack:
 

@@ -8,6 +8,8 @@ My name is Jonathan Dang.
 - 🌱 Currently, I am embarking on a Master Degree at [The University of Western Australia](CjwKCAjw_4S3BhAAEiwA_64Yho_M5EntpygeLxLX3Y_hq9Bg7ymv2uCfw5VRNMOxqZL3aPe_dx2MyBoCXKsQAvD_BwE), a top 100 university in [QS Ranking](https://www.topuniversities.com/universities/university-western-australia), with the specialization in Artificial Intelligence
 - 🚵 I am seeking for a chance to horn my practical skills through project, open source contribution or non-profit technological project, which will act as a precursor to make an advancement in my career as a Software Engineer with the focus on Data and AI engineering in Australia or Vietnam remotely.
 # 💻 Tech Stack:
+
+<h3 align="left">Programming languages:</h3>
 <p align="left">
   <a href="https://learn.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>

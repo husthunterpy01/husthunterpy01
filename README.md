@@ -76,9 +76,6 @@ For future collaboration and career discussion, you can contact me at:
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=merko)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=husthunterpy01&icon=0&color=0)](https://visitcount.itsvg.in)
-A summary of recent contribution throughout the years:
-
 
 
 

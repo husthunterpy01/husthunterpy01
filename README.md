@@ -28,8 +28,11 @@ My name is Jonathan Dang.
 
 
 
-## 📫 How to reach me: 
+## 📫 How to reach me: \
+For future collaboration and career discussion, you can contact me at:
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/minh-dang-tran-nhat-jonathan-dang-a19420251/) 
+[![Gmail](https://img.shields.io/badge/Gmail-%D14836.svg?logo=gmail&logoColor=red)](fantasy2841@gmail.com) 
 ### 🔝 Top Contributed Repo
 ![](https://github-contributor-stats.vercel.app/api?username=husthunterpy01&limit=5&theme=cobalt2&combine_all_yearly_contributions=true)
 ## 🏆 GitHub Trophies

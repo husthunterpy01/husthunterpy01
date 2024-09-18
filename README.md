@@ -45,12 +45,12 @@ My name is Jonathan Dang.
 
 
 # 📊GitHub Stats :
-<div style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start;">
-  <!-- Left Column: GitHub Stats and Streak, stacked vertically -->
-  <div style="display: flex; flex-direction: column; flex: 1; margin-right: 10px;">
-    <img src="https://github-readme-stats.vercel.app/api?username=husthunterpy01&theme=prussian&hide_border=false&include_all_commits=true&count_private=true" alt="GitHub Stats" style="margin-bottom: 10px;"/>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=husthunterpy01&theme=prussian&hide_border=false" alt="GitHub Streak"/>
-  </div>
+<p align="center">
+
+<a href="https://github.com/husthunterpy01?tab=repositories"><img src="https://github-readme-stats-one-bice.vercel.app/api?username=husthunterpy01&theme=outrun&show_icons=true&count_private=true&hide_border=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR"  width="49%" alt="@Goblin's github-readme-stats"/></a>
+<a href="https://github.com/husthunterpy01?tab=stars"><img src="https://github-readme-streak-stats.herokuapp.com?user=husthunterpy01&theme=outrun&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"  width="49%" alt="@Goblin's github-readme-streak-stats"/></a>
+
+</p>
 
   <!-- Right Column: Most Used Languages -->
   <div style="flex: 1; margin-left: 10px;">

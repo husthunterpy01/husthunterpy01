@@ -1,4 +1,6 @@
 ### WELCOME TO MY PAGE 👋👋👋
+![Header](./backend_background.png)
+
 My name is Martin Dang. 
 
 - 🏫 I graduated from [Hanoi University of Science and Technology](https://hust.edu.vn/), majoring in Electronics and Telecommunications Engineering, my works in the undergraduate program mainly focus on AI solution for anomaly detection and speech processing for agriculture domain

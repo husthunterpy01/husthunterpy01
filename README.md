@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/1c998c2d-ab1a-4988-a72b-0e2ff67778a4)![Header](./backend_background.png)
 ### WELCOME TO MY PAGE 👋👋👋
 My name is Martin Dang. 
 

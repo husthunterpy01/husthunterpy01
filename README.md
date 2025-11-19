@@ -35,7 +35,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
   
 ### 💻 Tech Stack
   
@@ -153,7 +153,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
   
 ### 📊 GitHub Stats
   
@@ -175,7 +175,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
   
 ### 🏔️ Most Used Languages | 🔝 Top Contributed Repo
   
@@ -196,7 +196,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
   
 ### 🏆 GitHub Trophies
   
@@ -208,7 +208,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
   
 ### ✍️ Random Dev Quote
   
@@ -218,7 +218,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
   
 ### 📫 How to Reach Me
   

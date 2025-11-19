@@ -200,7 +200,9 @@
   
 ### 🏆 GitHub Trophies
   
-![](https://github-profile-trophy.vercel.app/?username=husthunterpy01&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=husthunterpy01&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
+</p>
 
 </div>
 
@@ -236,4 +238,3 @@ For future collaboration and career discussion, you can contact me at:
 ![Animated Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer)
 
 </div>
-

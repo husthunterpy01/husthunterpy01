@@ -83,4 +83,12 @@ jobs:
           INPUT_SHOW_WEEKLY_COMMIT: "True"
           INPUT_SHOW_LANGUAGE: "True"
           INPUT_SHOW_TOTAL_CONTRIBUTIONS: "True"
-        run: python GenerateREADME.py
+        # Retry: the script reads README.md first and writes it back later, so any commit to
+        # README.md in between (for example the snake or an edit of yours) gives a 409 conflict.
+        run: |
+          for attempt in 1 2 3; do
+            python GenerateREADME.py && exit 0
+            echo "Attempt $attempt failed, retrying in 20s..."
+            sleep 20
+          done
+          exit 1

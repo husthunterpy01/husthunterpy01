@@ -141,7 +141,7 @@
     <img src="https://cdn.simpleicons.org/databricks/FF3621" alt="databricks" width="40" height="40"/>
   </a>
   <a href="https://www.getdbt.com/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.simpleicons.org/dbt/FF694B" alt="dbt" width="40" height="40"/>
+    <img src="./assets/dbt.svg" alt="dbt" width="40" height="40"/>
   </a>
 </p>
 

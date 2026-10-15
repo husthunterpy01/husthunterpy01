@@ -62,6 +62,6 @@ jobs:
           INPUT_SHOW_PROFILE_VIEWS: "False"
           INPUT_SHOW_DAILY_COMMIT: "True"
           INPUT_SHOW_WEEKLY_COMMIT: "True"
-          INPUT_SHOW_LANGUAGE: "True"
+          INPUT_SHOW_LANGUAGE: "False"
           INPUT_SHOW_TOTAL_CONTRIBUTIONS: "True"
         run: python GenerateREADME.py

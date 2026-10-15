@@ -24,9 +24,28 @@ jobs:
             curl -fsSL -o "$f" "https://raw.githubusercontent.com/th3c0d3br34ker/github-readme-info/master/$f"
           done
           sed -i 's/"master"/"main"/g; s/'"'"'master'"'"'/'"'"'main'"'"'/g' GenerateREADME.py githubQuery.py
+          # GitHub returns null entries for repos the token can't see; skip them.
+          sed -i "s/if d\['isFork'\] is False/if d and d['isFork'] is False/" GenerateREADME.py
+          # Read commit history from each repo's default branch (main or master).
+          sed -i 's/ref(qualifiedName: "main") {/ref: defaultBranchRef {/' githubQuery.py
           # The script swallows its own errors and exits 0; make failures show up as a red run.
           sed -i 's/print("ERROR:: ", str(e))/print("ERROR:: ", str(e)); raise SystemExit(1)/' GenerateREADME.py
           pip install PyGithub python-dotenv humanize pytz requests
+
+      - name: Check GH_TOKEN secret
+        env:
+          TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::error::GH_TOKEN secret is empty or missing. Add it under Settings > Secrets and variables > Actions > Repository secrets."
+            exit 1
+          fi
+          code=$(curl -s -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $TOKEN" https://api.github.com/user)
+          echo "GitHub API /user returned HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "::error::GH_TOKEN was rejected (HTTP $code). Create a new token with repo and user scopes."
+            exit 1
+          fi
 
       - name: Generate README stats
         working-directory: readme-info

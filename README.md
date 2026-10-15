@@ -2,7 +2,6 @@
   
 ### 👋 Welcome to My Page 👋
   
-![Header](./backend_background.png)
   
 <div align="center">
   

@@ -281,7 +281,7 @@
 <!--END_CONTRIBUTIONS:readme-info-->
 
 <!--START_SECTION_LINES_OF_CODE:readme-info-->
-**From Hello World I have written 1.2 million Lines of Code ✍️**
+**From Hello World I have written 11.2 million Lines of Code ✍️**
 
 
 <!--END_SECTION_LINES_OF_CODE:readme-info-->
@@ -291,26 +291,26 @@
 
 | | | | |
 | --- | --- | --- | --- |
-|🌞 Morning                |54 commits          |████░░░░░░░░░░░░░░░░|20.15%|
-|🌆 Daytime                |105 commits         |████████░░░░░░░░░░░░|39.18%|
-|🌃 Evening                |88 commits          |███████░░░░░░░░░░░░░|32.84%|
-|🌙 Night                  |21 commits          |██░░░░░░░░░░░░░░░░░░|7.84%|
+|🌞 Morning                |93 commits          |████░░░░░░░░░░░░░░░░|19.87%|
+|🌆 Daytime                |174 commits         |███████░░░░░░░░░░░░░|37.18%|
+|🌃 Evening                |158 commits         |███████░░░░░░░░░░░░░|33.76%|
+|🌙 Night                  |43 commits          |██░░░░░░░░░░░░░░░░░░|9.19%|
 | | | | |
 
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
 
 <!--START_SECTION_WEEKLY_COMMIT:readme-info-->
-📅 **I'm Most Productive on Thursdays** 
+📅 **I'm Most Productive on Saturdays** 
 
 | | | | |
 | --- | --- | --- | --- |
-|Monday                   |40 commits          |███░░░░░░░░░░░░░░░░░|17.24%|
-|Tuesday                  |24 commits          |██░░░░░░░░░░░░░░░░░░|10.34%|
-|Wednesday                |25 commits          |██░░░░░░░░░░░░░░░░░░|10.78%|
-|Thursday                 |62 commits          |█████░░░░░░░░░░░░░░░|26.72%|
-|Friday                   |24 commits          |██░░░░░░░░░░░░░░░░░░|10.34%|
-|Saturday                 |35 commits          |███░░░░░░░░░░░░░░░░░|15.09%|
-|Sunday                   |22 commits          |██░░░░░░░░░░░░░░░░░░|9.48%|
+|Monday                   |63 commits          |███░░░░░░░░░░░░░░░░░|14.58%|
+|Tuesday                  |43 commits          |██░░░░░░░░░░░░░░░░░░|9.95%|
+|Wednesday                |44 commits          |██░░░░░░░░░░░░░░░░░░|10.19%|
+|Thursday                 |79 commits          |████░░░░░░░░░░░░░░░░|18.29%|
+|Friday                   |48 commits          |██░░░░░░░░░░░░░░░░░░|11.11%|
+|Saturday                 |83 commits          |████░░░░░░░░░░░░░░░░|19.21%|
+|Sunday                   |72 commits          |███░░░░░░░░░░░░░░░░░|16.67%|
 | | | | |
 
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
@@ -321,7 +321,11 @@
 ```text
 My 💖 top 5 languages (by number of repos)
 
-Python          1 repos  ████████████████████   100.0%
+Jupyter Notebo 13 repos  ███████░░░░░░░░░░░░░   34.21%
+Python         11 repos  ██████░░░░░░░░░░░░░░   28.95%
+C#              3 repos  ██░░░░░░░░░░░░░░░░░░    7.89%
+Java            2 repos  █░░░░░░░░░░░░░░░░░░░    5.26%
+C               2 repos  █░░░░░░░░░░░░░░░░░░░    5.26%
 ```
 
 <!--END_SECTION_LANGUAGE:readme-info-->

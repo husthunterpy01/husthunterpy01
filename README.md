@@ -8,6 +8,10 @@
   
 <!-- Animated typing effect -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=My+name+is+Martin+Dang;Backend+Developer+%7C+AI+Enthusiast;Data+Engineering+%7C+NLP+%7C+LLM;Always+Learning+%7C+Always+Building" alt="Typing SVG" /></a>
+
+<p align="center">
+  <img src="./assets/code-editor.svg" width="80%" alt="Animated code editor typing a short Python profile"/>
+</p>
   
 </div>
 
@@ -316,11 +320,6 @@
 
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
 
-### 🗂️ Languages by Number of Repositories
-
-<!--START_SECTION_LANGUAGE:readme-info-->
-
-<!--END_SECTION_LANGUAGE:readme-info-->
 
 </div>
 
@@ -328,17 +327,14 @@
 
 <div align="left">
   
-### 🏔️ Most Used Languages | 🔝 Top Contributed Repo
+### 🏔️ Most Used Languages
   
 <table>
   <tr>
-    <td width="50%" align="center">
+    <td align="center">
       <a href="https://github.com/husthunterpy01/github-readme-stats">
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=husthunterpy01&layout=donut&langs_count=10&theme=outrun" alt="Top Langs" width="100%"/>
       </a>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-contributor-stats.vercel.app/api?username=husthunterpy01&limit=5&theme=cobalt2&combine_all_yearly_contributions=true" alt="Top Contributed Repo" width="100%"/>
     </td>
   </tr>
 </table>
@@ -347,17 +343,6 @@
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
-<div align="left">
-  
-### 🏆 GitHub Trophies
-  
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=husthunterpy01&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
-</p>
-
-</div>
-
-<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
   

@@ -2,10 +2,12 @@
   
 ### 👋 Welcome to My Page 👋
   
+![Header](./backend_background.png)
   
 <div align="center">
   
-
+<!-- Animated typing effect -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=My+name+is+Martin+Dang;Backend+Developer+%7C+AI+Enthusiast;Data+Engineering+%7C+NLP+%7C+LLM;Always+Learning+%7C+Always+Building" alt="Typing SVG" /></a>
 
 <p align="center">
   <img src="./assets/code-editor.svg" width="80%" alt="Animated code editor typing a short Python profile"/>
@@ -263,6 +265,10 @@
   </a>
 </p>
 
+<!-- Animated contribution graph -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=husthunterpy01&theme=redical&hide_border=true" alt="Activity Graph" />
+</p>
 
 </div>
 
@@ -313,6 +319,12 @@
 | | | | |
 
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
+
+### 🗂️ Top 5 Languages
+
+<!--START_SECTION_LANGUAGE:readme-info-->
+
+<!--END_SECTION_LANGUAGE:readme-info-->
 
 
 </div>

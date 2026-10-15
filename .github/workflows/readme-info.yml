@@ -10,13 +10,31 @@ jobs:
     name: GitHub README Generator
     runs-on: ubuntu-latest
     steps:
-      - uses: th3c0d3br34ker/github-readme-info@master
+      - uses: actions/setup-python@v5
         with:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          TIMEZONE: "Australia/Perth"
-          SHOW_LINES_OF_CODE: "True"
-          SHOW_PROFILE_VIEWS: "False"
-          SHOW_DAILY_COMMIT: "True"
-          SHOW_WEEKLY_COMMIT: "True"
-          SHOW_LANGUAGE: "False"
-          SHOW_TOTAL_CONTRIBUTIONS: "True"
+          python-version: "3.11"
+
+      # The upstream Docker action no longer builds (it pins matplotlib 3.3.0)
+      # and hardcodes the "master" branch. Run the same code directly with only
+      # the dependencies it actually imports, pointed at "main".
+      - name: Fetch and patch github-readme-info
+        run: |
+          mkdir readme-info && cd readme-info
+          for f in GenerateREADME.py githubQuery.py ReadmeMaker.py utility.py; do
+            curl -fsSL -o "$f" "https://raw.githubusercontent.com/th3c0d3br34ker/github-readme-info/master/$f"
+          done
+          sed -i 's/"master"/"main"/g; s/'"'"'master'"'"'/'"'"'main'"'"'/g' GenerateREADME.py githubQuery.py
+          pip install PyGithub python-dotenv humanize pytz requests
+
+      - name: Generate README stats
+        working-directory: readme-info
+        env:
+          INPUT_GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          INPUT_TIMEZONE: "Australia/Perth"
+          INPUT_SHOW_LINES_OF_CODE: "True"
+          INPUT_SHOW_PROFILE_VIEWS: "False"
+          INPUT_SHOW_DAILY_COMMIT: "True"
+          INPUT_SHOW_WEEKLY_COMMIT: "True"
+          INPUT_SHOW_LANGUAGE: "False"
+          INPUT_SHOW_TOTAL_CONTRIBUTIONS: "True"
+        run: python GenerateREADME.py

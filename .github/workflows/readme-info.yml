@@ -36,6 +36,25 @@ jobs:
           sed -i 's|^    done_block = .*|    done_block = "█" * round(pc_rnd / 5)|; s|^    empty_block = .*|    empty_block = "░" * (20 - round(pc_rnd / 5))|' utility.py
           # The script swallows its own errors and exits 0; make failures show up as a red run.
           sed -i 's/print("ERROR:: ", str(e))/print("ERROR:: ", str(e)); raise SystemExit(1)/' GenerateREADME.py
+          # Language block: show only the top 5 languages, as a compact text chart.
+          python3 - <<'PY'
+          p = "GenerateREADME.py"
+          s = open(p, encoding="utf-8").read()
+          s = s.replace("for label in sorted_labels:", "for label in sorted_labels[:5]:")
+          start = s.index('    title = "My 💖 languages " + most_language_repo')
+          end = s.index("def getProfileViews")
+          new = "\n".join([
+              r'    title = "My 💖 top 5 languages (by number of repos)"',
+              r'    rows = []',
+              r'    for d in data:',
+              r'        filled = round(d["percent"] / 5)',
+              r'        bar = "█" * filled + "░" * (20 - filled)',
+              r'''        rows.append(f"{d['name'][:14]:<14} {d['text']:>8}  {bar}  {d['percent']:>6}%")''',
+              r'    return "```text\n" + title + "\n\n" + "\n".join(rows) + "\n```\n"',
+          ]) + "\n\n\n"
+          s = s[:start] + new + s[end:]
+          open(p, "w", encoding="utf-8").write(s)
+          PY
           pip install PyGithub python-dotenv humanize pytz requests
 
       - name: Check GH_TOKEN secret
@@ -62,6 +81,6 @@ jobs:
           INPUT_SHOW_PROFILE_VIEWS: "False"
           INPUT_SHOW_DAILY_COMMIT: "True"
           INPUT_SHOW_WEEKLY_COMMIT: "True"
-          INPUT_SHOW_LANGUAGE: "False"
+          INPUT_SHOW_LANGUAGE: "True"
           INPUT_SHOW_TOTAL_CONTRIBUTIONS: "True"
         run: python GenerateREADME.py

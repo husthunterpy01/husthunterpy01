@@ -18,7 +18,7 @@
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
   
@@ -33,7 +33,7 @@
   
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
 
@@ -48,11 +48,15 @@
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
   
 ### 💻 Tech Stack
+
+<p align="center">
+  <img src="./assets/tech-marquee.svg" width="100%" alt="Scrolling technology logos"/>
+</p>
   
 <h3 align="left">Programming languages:</h3>
 <p align="left">
@@ -93,6 +97,18 @@
   <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/>
   </a>
+  <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/>
+  </a>
+  <a href="https://numpy.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" alt="numpy" width="40" height="40"/>
+  </a>
+  <a href="https://huggingface.co/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.simpleicons.org/huggingface/FFD21E" alt="huggingface" width="40" height="40"/>
+  </a>
+  <a href="https://jupyter.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jupyter/jupyter-original.svg" alt="jupyter" width="40" height="40"/>
+  </a>
 </p>
 
 <h3 align="left">Big data development:</h3>
@@ -117,6 +133,15 @@
   </a>
   <a href="https://kubernetes.io" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/>
+  </a>
+  <a href="https://spark.apache.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachespark/apachespark-original.svg" alt="apachespark" width="40" height="40"/>
+  </a>
+  <a href="https://www.databricks.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.simpleicons.org/databricks/FF3621" alt="databricks" width="40" height="40"/>
+  </a>
+  <a href="https://www.getdbt.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.simpleicons.org/dbt/FF694B" alt="dbt" width="40" height="40"/>
   </a>
 </p>
 
@@ -152,6 +177,27 @@
   <a href="https://spring.io/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/>
   </a>
+  <a href="https://react.dev/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
+  </a>
+  <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.simpleicons.org/nextdotjs/888888" alt="nextjs" width="40" height="40"/>
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="tailwindcss" width="40" height="40"/>
+  </a>
+  <a href="https://nodejs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40"/>
+  </a>
+  <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/>
+  </a>
+  <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.simpleicons.org/flask/888888" alt="flask" width="40" height="40"/>
+  </a>
+  <a href="https://streamlit.io/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/streamlit/streamlit-original.svg" alt="streamlit" width="40" height="40"/>
+  </a>
 </p>
 
 <h3 align="left">Databases</h3>
@@ -162,11 +208,45 @@
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
   </a>
+  <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40"/>
+  </a>
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40"/>
+  </a>
+  <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="sqlite" width="40" height="40"/>
+  </a>
+  <a href="https://neo4j.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/neo4j/neo4j-original.svg" alt="neo4j" width="40" height="40"/>
+  </a>
+  <a href="https://supabase.com/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg" alt="supabase" width="40" height="40"/>
+  </a>
+</p>
+
+<h3 align="left">Testing, DevOps &amp; Deployment</h3>
+<p align="left">
+  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
+    <img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="githubactions" width="40" height="40"/>
+  </a>
+  <a href="https://pytest.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytest/pytest-original.svg" alt="pytest" width="40" height="40"/>
+  </a>
+  <a href="https://www.selenium.dev/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/selenium/selenium-original.svg" alt="selenium" width="40" height="40"/>
+  </a>
+  <a href="https://playwright.dev/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/playwright/playwright-original.svg" alt="playwright" width="40" height="40"/>
+  </a>
+  <a href="https://vercel.com/" target="_blank" rel="noreferrer">
+    <img src="https://cdn.simpleicons.org/vercel/888888" alt="vercel" width="40" height="40"/>
+  </a>
 </p>
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
   
@@ -188,7 +268,7 @@
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
 
@@ -212,10 +292,10 @@
 
 | | | | |
 | --- | --- | --- | --- |
-|🌞 Morning                |55 commits          |████░░░░░░░░░░░░░░░░|21.07%|
-|🌆 Daytime                |106 commits         |████████░░░░░░░░░░░░|40.61%|
-|🌃 Evening                |73 commits          |██████░░░░░░░░░░░░░░|27.97%|
-|🌙 Night                  |27 commits          |██░░░░░░░░░░░░░░░░░░|10.34%|
+|🌞 Morning                |55 commits          |![](https://via.placeholder.com/84x22/000000/000000?text=+)![](https://via.placeholder.com/316x22/b8b8b8/b8b8b8?=text=+)|21.4%|
+|🌆 Daytime                |106 commits         |![](https://via.placeholder.com/164x22/000000/000000?text=+)![](https://via.placeholder.com/236x22/b8b8b8/b8b8b8?=text=+)|41.25%|
+|🌃 Evening                |69 commits          |![](https://via.placeholder.com/108x22/000000/000000?text=+)![](https://via.placeholder.com/292x22/b8b8b8/b8b8b8?=text=+)|26.85%|
+|🌙 Night                  |27 commits          |![](https://via.placeholder.com/44x22/000000/000000?text=+)![](https://via.placeholder.com/356x22/b8b8b8/b8b8b8?=text=+)|10.51%|
 | | | | |
 
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
@@ -225,13 +305,13 @@
 
 | | | | |
 | --- | --- | --- | --- |
-|Monday                   |40 commits          |████░░░░░░░░░░░░░░░░|17.78%|
-|Tuesday                  |24 commits          |██░░░░░░░░░░░░░░░░░░|10.67%|
-|Wednesday                |33 commits          |███░░░░░░░░░░░░░░░░░|14.67%|
-|Thursday                 |47 commits          |████░░░░░░░░░░░░░░░░|20.89%|
-|Friday                   |24 commits          |██░░░░░░░░░░░░░░░░░░|10.67%|
-|Saturday                 |35 commits          |███░░░░░░░░░░░░░░░░░|15.56%|
-|Sunday                   |22 commits          |██░░░░░░░░░░░░░░░░░░|9.78%|
+|Monday                   |40 commits          |![](https://via.placeholder.com/72x22/000000/000000?text=+)![](https://via.placeholder.com/328x22/b8b8b8/b8b8b8?=text=+)|18.1%|
+|Tuesday                  |24 commits          |![](https://via.placeholder.com/44x22/000000/000000?text=+)![](https://via.placeholder.com/356x22/b8b8b8/b8b8b8?=text=+)|10.86%|
+|Wednesday                |33 commits          |![](https://via.placeholder.com/60x22/000000/000000?text=+)![](https://via.placeholder.com/340x22/b8b8b8/b8b8b8?=text=+)|14.93%|
+|Thursday                 |43 commits          |![](https://via.placeholder.com/76x22/000000/000000?text=+)![](https://via.placeholder.com/324x22/b8b8b8/b8b8b8?=text=+)|19.46%|
+|Friday                   |24 commits          |![](https://via.placeholder.com/44x22/000000/000000?text=+)![](https://via.placeholder.com/356x22/b8b8b8/b8b8b8?=text=+)|10.86%|
+|Saturday                 |35 commits          |![](https://via.placeholder.com/64x22/000000/000000?text=+)![](https://via.placeholder.com/336x22/b8b8b8/b8b8b8?=text=+)|15.84%|
+|Sunday                   |22 commits          |![](https://via.placeholder.com/40x22/000000/000000?text=+)![](https://via.placeholder.com/360x22/b8b8b8/b8b8b8?=text=+)|9.95%|
 | | | | |
 
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
@@ -239,18 +319,12 @@
 ### 🗂️ Languages by Number of Repositories
 
 <!--START_SECTION_LANGUAGE:readme-info-->
-**My 💖 languages Python** 
-
-| | | | |
-| --- | --- | --- | --- |
-|Python                   |1 repos|             ████████████████████|100.0%|
-| | | | |
 
 <!--END_SECTION_LANGUAGE:readme-info-->
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
   
@@ -271,7 +345,7 @@
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
   
@@ -283,7 +357,7 @@
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
   
@@ -293,7 +367,7 @@
 
 </div>
 
----
+<p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <div align="left">
   
@@ -312,6 +386,6 @@ For future collaboration and career discussion, you can contact me at:
 <!-- Additional animated elements -->
 <div align="center">
   
-![Animated Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer)
+![Animated Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=140&section=footer&text=Thanks%20for%20visiting&fontSize=24&fontAlignY=65&animation=twinkling)
 
 </div>

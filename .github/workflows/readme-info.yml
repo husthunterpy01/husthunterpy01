@@ -24,6 +24,8 @@ jobs:
             curl -fsSL -o "$f" "https://raw.githubusercontent.com/th3c0d3br34ker/github-readme-info/master/$f"
           done
           sed -i 's/"master"/"main"/g; s/'"'"'master'"'"'/'"'"'main'"'"'/g' GenerateREADME.py githubQuery.py
+          # The script swallows its own errors and exits 0; make failures show up as a red run.
+          sed -i 's/print("ERROR:: ", str(e))/print("ERROR:: ", str(e)); raise SystemExit(1)/' GenerateREADME.py
           pip install PyGithub python-dotenv humanize pytz requests
 
       - name: Generate README stats

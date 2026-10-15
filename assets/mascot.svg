@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 150" width="900" height="150">
+<style>
+:root{--bg:#0d1117;--ink:#e6edf3;--accent:#58a6ff;--body:#30363d}
+.run{animation:run 24s linear infinite}
+@keyframes run{0%{transform:translateX(10px)}100%{transform:translateX(640px)}}
+.bob{animation:bob .4s ease-in-out infinite alternate}
+@keyframes bob{from{transform:translateY(0)}to{transform:translateY(-4px)}}
+.leg{transform-box:fill-box;transform-origin:50% 0}
+.l1{animation:sw .4s ease-in-out infinite alternate}
+.l2{animation:sw .4s ease-in-out infinite alternate-reverse}
+@keyframes sw{from{transform:rotate(-35deg)}to{transform:rotate(35deg)}}
+.arm{transform-box:fill-box;transform-origin:50% 10%}
+.a1{animation:sw .4s ease-in-out infinite alternate-reverse}
+.a2{animation:sw .4s ease-in-out infinite alternate}
+.blink{transform-box:fill-box;transform-origin:center;animation:bl 3s infinite}
+@keyframes bl{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+.ant{animation:pulse 1s ease-in-out infinite alternate}
+@keyframes pulse{from{opacity:.3}to{opacity:1}}
+.m{opacity:0;font:600 12px 'Courier New',monospace;fill:var(--ink)}
+.m1{animation:m1 24s infinite}.m2{animation:m2 24s infinite}.m3{animation:m3 24s infinite}.m4{animation:m4 24s infinite}
+@keyframes m1{0%,1%{opacity:0}3%,22%{opacity:1}24%,100%{opacity:0}}
+@keyframes m2{0%,25%{opacity:0}27%,47%{opacity:1}49%,100%{opacity:0}}
+@keyframes m3{0%,50%{opacity:0}52%,72%{opacity:1}74%,100%{opacity:0}}
+@keyframes m4{0%,75%{opacity:0}77%,97%{opacity:1}99%,100%{opacity:0}}
+.dust{animation:dust .5s linear infinite}
+@keyframes dust{from{opacity:.7;transform:translateX(0)}to{opacity:0;transform:translateX(-18px)}}
+.gr{stroke-dasharray:10 8;animation:gr .5s linear infinite}
+@keyframes gr{to{stroke-dashoffset:18}}
+@media (prefers-reduced-motion:reduce){.run,.bob,.leg,.arm,.gr,.dust{animation:none}.run{transform:translateX(300px)}.m1{opacity:1;animation:none}}
+</style>
+<line x1="0" y1="132" x2="900" y2="132" stroke="#30363d" stroke-width="2" class="gr"/>
+<g class="run">
+ <!-- bubble -->
+ <g transform="translate(40,0)">
+  <rect x="0" y="2" width="250" height="30" rx="8" fill="#161b22" stroke="#58a6ff"/>
+  <path d="M14 32 l8 10 l6 -10z" fill="#161b22" stroke="#58a6ff"/>
+  <rect x="13" y="31" width="16" height="3" fill="#161b22"/>
+  <text class="m m1" x="12" y="22">Hi! I'm Bit, Martin's bot</text>
+  <text class="m m2" x="12" y="22">He builds Data, NLP &amp; LLM apps</text>
+  <text class="m m3" x="12" y="22">Python · C# · SQL · Spark</text>
+  <text class="m m4" x="12" y="22">Scroll down for his projects!</text>
+ </g>
+ <g class="bob">
+  <circle class="dust" cx="20" cy="128" r="3" fill="#8b949e"/>
+  <g transform="translate(60,0)">
+   <!-- legs -->
+   <rect class="leg l1" x="22" y="100" width="9" height="26" rx="4" fill="#58a6ff"/>
+   <rect class="leg l2" x="36" y="100" width="9" height="26" rx="4" fill="#1f6feb"/>
+   <!-- arms -->
+   <rect class="arm a1" x="10" y="72" width="8" height="24" rx="4" fill="#1f6feb"/>
+   <rect class="arm a2" x="49" y="72" width="8" height="24" rx="4" fill="#58a6ff"/>
+   <!-- torso -->
+   <rect x="16" y="68" width="35" height="36" rx="8" fill="#30363d" stroke="#58a6ff" stroke-width="2"/>
+   <text x="33.5" y="92" text-anchor="middle" font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#58a6ff">&lt;/&gt;</text>
+   <!-- head -->
+   <line x1="33.5" y1="42" x2="33.5" y2="52" stroke="#8b949e" stroke-width="2"/>
+   <circle class="ant" cx="33.5" cy="40" r="4" fill="#f78166"/>
+   <rect x="12" y="52" width="43" height="30" rx="10" fill="#30363d" stroke="#58a6ff" stroke-width="2"/>
+   <rect x="17" y="58" width="33" height="14" rx="6" fill="#0d1117"/>
+   <rect class="blink" x="23" y="62" width="6" height="6" rx="2" fill="#3fb950"/>
+   <rect class="blink" x="38" y="62" width="6" height="6" rx="2" fill="#3fb950"/>
+  </g>
+ </g>
+</g>
+</svg>

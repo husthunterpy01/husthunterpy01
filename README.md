@@ -292,10 +292,10 @@
 
 | | | | |
 | --- | --- | --- | --- |
-|🌞 Morning                |55 commits          |![](https://via.placeholder.com/84x22/000000/000000?text=+)![](https://via.placeholder.com/316x22/b8b8b8/b8b8b8?=text=+)|21.4%|
-|🌆 Daytime                |106 commits         |![](https://via.placeholder.com/164x22/000000/000000?text=+)![](https://via.placeholder.com/236x22/b8b8b8/b8b8b8?=text=+)|41.25%|
-|🌃 Evening                |69 commits          |![](https://via.placeholder.com/108x22/000000/000000?text=+)![](https://via.placeholder.com/292x22/b8b8b8/b8b8b8?=text=+)|26.85%|
-|🌙 Night                  |27 commits          |![](https://via.placeholder.com/44x22/000000/000000?text=+)![](https://via.placeholder.com/356x22/b8b8b8/b8b8b8?=text=+)|10.51%|
+|🌞 Morning                |54 commits          |████░░░░░░░░░░░░░░░░|20.15%|
+|🌆 Daytime                |105 commits         |████████░░░░░░░░░░░░|39.18%|
+|🌃 Evening                |88 commits          |███████░░░░░░░░░░░░░|32.84%|
+|🌙 Night                  |21 commits          |██░░░░░░░░░░░░░░░░░░|7.84%|
 | | | | |
 
 <!--END_SECTION_DAILY_COMMIT:readme-info-->
@@ -305,13 +305,13 @@
 
 | | | | |
 | --- | --- | --- | --- |
-|Monday                   |40 commits          |![](https://via.placeholder.com/72x22/000000/000000?text=+)![](https://via.placeholder.com/328x22/b8b8b8/b8b8b8?=text=+)|18.1%|
-|Tuesday                  |24 commits          |![](https://via.placeholder.com/44x22/000000/000000?text=+)![](https://via.placeholder.com/356x22/b8b8b8/b8b8b8?=text=+)|10.86%|
-|Wednesday                |33 commits          |![](https://via.placeholder.com/60x22/000000/000000?text=+)![](https://via.placeholder.com/340x22/b8b8b8/b8b8b8?=text=+)|14.93%|
-|Thursday                 |43 commits          |![](https://via.placeholder.com/76x22/000000/000000?text=+)![](https://via.placeholder.com/324x22/b8b8b8/b8b8b8?=text=+)|19.46%|
-|Friday                   |24 commits          |![](https://via.placeholder.com/44x22/000000/000000?text=+)![](https://via.placeholder.com/356x22/b8b8b8/b8b8b8?=text=+)|10.86%|
-|Saturday                 |35 commits          |![](https://via.placeholder.com/64x22/000000/000000?text=+)![](https://via.placeholder.com/336x22/b8b8b8/b8b8b8?=text=+)|15.84%|
-|Sunday                   |22 commits          |![](https://via.placeholder.com/40x22/000000/000000?text=+)![](https://via.placeholder.com/360x22/b8b8b8/b8b8b8?=text=+)|9.95%|
+|Monday                   |40 commits          |███░░░░░░░░░░░░░░░░░|17.24%|
+|Tuesday                  |24 commits          |██░░░░░░░░░░░░░░░░░░|10.34%|
+|Wednesday                |25 commits          |██░░░░░░░░░░░░░░░░░░|10.78%|
+|Thursday                 |62 commits          |█████░░░░░░░░░░░░░░░|26.72%|
+|Friday                   |24 commits          |██░░░░░░░░░░░░░░░░░░|10.34%|
+|Saturday                 |35 commits          |███░░░░░░░░░░░░░░░░░|15.09%|
+|Sunday                   |22 commits          |██░░░░░░░░░░░░░░░░░░|9.48%|
 | | | | |
 
 <!--END_SECTION_WEEKLY_COMMIT:readme-info-->
@@ -319,6 +319,11 @@
 ### 🗂️ Top 5 Languages
 
 <!--START_SECTION_LANGUAGE:readme-info-->
+```text
+My 💖 top 5 languages (by number of repos)
+
+Python          1 repos  ████████████████████   100.0%
+```
 
 <!--END_SECTION_LANGUAGE:readme-info-->
 

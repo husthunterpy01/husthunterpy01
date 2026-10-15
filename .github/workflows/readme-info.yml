@@ -28,6 +28,10 @@ jobs:
           sed -i "s/if d\['isFork'\] is False/if d and d['isFork'] is False/" GenerateREADME.py
           # Read commit history from each repo's default branch (main or master).
           sed -i 's/ref(qualifiedName: "main") {/ref: defaultBranchRef {/' githubQuery.py
+          # The language query asks for collaborator counts, which needs admin rights on every repo and fails otherwise.
+          sed -i '/collaborators {/,/}/d' githubQuery.py
+          # The progress bars are images from via.placeholder.com, which is unreliable; use text bars instead.
+          sed -i 's|^    done_block = .*|    done_block = "█" * round(pc_rnd / 5)|; s|^    empty_block = .*|    empty_block = "░" * (20 - round(pc_rnd / 5))|' utility.py
           # The script swallows its own errors and exits 0; make failures show up as a red run.
           sed -i 's/print("ERROR:: ", str(e))/print("ERROR:: ", str(e)); raise SystemExit(1)/' GenerateREADME.py
           pip install PyGithub python-dotenv humanize pytz requests
@@ -56,6 +60,6 @@ jobs:
           INPUT_SHOW_PROFILE_VIEWS: "False"
           INPUT_SHOW_DAILY_COMMIT: "True"
           INPUT_SHOW_WEEKLY_COMMIT: "True"
-          INPUT_SHOW_LANGUAGE: "False"
+          INPUT_SHOW_LANGUAGE: "True"
           INPUT_SHOW_TOTAL_CONTRIBUTIONS: "True"
         run: python GenerateREADME.py

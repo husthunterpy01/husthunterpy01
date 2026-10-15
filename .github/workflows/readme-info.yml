@@ -30,6 +30,8 @@ jobs:
           sed -i 's/ref(qualifiedName: "main") {/ref: defaultBranchRef {/' githubQuery.py
           # The language query asks for collaborator counts, which needs admin rights on every repo and fails otherwise.
           sed -i '/collaborators {/,/}/d' githubQuery.py
+          # Skip repos GitHub returns as null (ones this token cannot access) in the language count.
+          sed -i "s/if repo\['node'\]\['primaryLanguage'\] is None:/if repo['node'] is None or repo['node']['primaryLanguage'] is None:/" GenerateREADME.py
           # The progress bars are images from via.placeholder.com, which is unreliable; use text bars instead.
           sed -i 's|^    done_block = .*|    done_block = "█" * round(pc_rnd / 5)|; s|^    empty_block = .*|    empty_block = "░" * (20 - round(pc_rnd / 5))|' utility.py
           # The script swallows its own errors and exits 0; make failures show up as a red run.

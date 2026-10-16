@@ -14,10 +14,6 @@
   
 </div>
 
-<!-- Profile views counter -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=husthunterpy01&label=Profile%20Views&color=0e75b6&style=flat" alt="husthunterpy01" />
-</p>
 
 </div>
 

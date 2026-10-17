@@ -335,15 +335,7 @@ C               2 repos  █░░░░░░░░░░░░░░░░░�
   
 ### 🏔️ Most Used Languages
   
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/husthunterpy01/github-readme-stats">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=husthunterpy01&layout=donut&langs_count=10&theme=outrun" alt="Top Langs" width="100%"/>
-      </a>
-    </td>
-  </tr>
-</table>
+![](./profile-3d-contrib/profile-gitblock.svg)
 
 </div>
 
@@ -370,7 +362,7 @@ For future collaboration and career discussion, you can contact me at:
 [![Gmail](https://img.shields.io/badge/Gmail-%D14836.svg?logo=gmail&logoColor=white&style=for-the-badge)](mailto:fantasy2841@gmail.com)
   
 <!-- Animated footer -->
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="100%">
+<!-- <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="100%"> -->
 
 </div>
 

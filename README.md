@@ -26,7 +26,7 @@
 - 🏫 I graduated from [Hanoi University of Science and Technology](https://hust.edu.vn/), majoring in Electronics and Telecommunications Engineering, my works in the undergraduate program mainly focus on AI solution for anomaly detection and speech processing for agriculture domain
 - 🏢 Recently, I had over 1 year experience as a Backend Developer.
 - 🌱 Currently, I am embarking on the Master Program of Information Technology at [The University of Western Australia](https://www.uwa.edu.au/), a top 100 university in [QS Ranking](https://www.topuniversities.com/universities/university-western-australia), with the specialization in Artificial Intelligence. 
-- 🎖️ My main techstack focuses on C#, SQl Server and Python for Backend and AI development, but I can also work minorly with Angular, NodeJS for web development and Spark, AWS Service for data pipeline maintenance
+- 🎖️ My main techstack focuses on C#, SQL Server and Python for Backend and AI development, but I can also work minorly with Angular, NodeJS for web development and Spark, AWS Service for data pipeline maintenance
 - 📅 For the time being, I have shifted my career path to Data Engineering, NLP, LLM and further Mlops development.
 - 🚵 I am seeking for a chance to horn my practical skills through project, open source contribution or non-profit technological project, which will act as a precursor to make an advancement in my career as a Software Engineer with the focus on Data and AI engineering.
   

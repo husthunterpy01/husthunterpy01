@@ -9,6 +9,8 @@ jobs:
   update-readme:
     name: GitHub README Generator
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/setup-python@v5
         with:
@@ -36,6 +38,17 @@ jobs:
           sed -i 's|^    done_block = .*|    done_block = "█" * round(pc_rnd / 5)|; s|^    empty_block = .*|    empty_block = "░" * (20 - round(pc_rnd / 5))|' utility.py
           # The script swallows its own errors and exits 0; make failures show up as a red run.
           sed -i 's/print("ERROR:: ", str(e))/print("ERROR:: ", str(e)); raise SystemExit(1)/' GenerateREADME.py
+          # Keep the write-capable workflow token out of the downloaded generator.
+          python3 - <<'PY'
+          p = "GenerateREADME.py"
+          s = open(p, encoding="utf-8").read()
+          old = '''        repo.update_file(path=readme.path, message="⤴ Auto Updated README",
+                                   content=newREADME, sha=readme.sha, branch='main')'''
+          new = '''        with open(readme.path, "w", encoding="utf-8") as output:
+                      output.write(newREADME)'''
+          assert old in s, "README update call not found; upstream script changed"
+          open(p, "w", encoding="utf-8").write(s.replace(old, new))
+          PY
           # Language block: show only the top 5 languages, as a compact text chart.
           python3 - <<'PY'
           p = "GenerateREADME.py"
@@ -93,8 +106,7 @@ jobs:
           INPUT_SHOW_WEEKLY_COMMIT: "True"
           INPUT_SHOW_LANGUAGE: "True"
           INPUT_SHOW_TOTAL_CONTRIBUTIONS: "True"
-        # Retry: the script reads README.md first and writes it back later, so any commit to
-        # README.md in between (for example the snake or an edit of yours) gives a 409 conflict.
+        # Retry transient failures while fetching GitHub data.
         run: |
           for attempt in 1 2 3; do
             python GenerateREADME.py && exit 0
@@ -102,3 +114,21 @@ jobs:
             sleep 20
           done
           exit 1
+
+      - name: Update README
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sha=$(gh api "repos/$GITHUB_REPOSITORY/contents/README.md" --jq .sha)
+          python3 - "$sha" <<'PY' | gh api --method PUT "repos/$GITHUB_REPOSITORY/contents/README.md" --input -
+          import json
+          import pathlib
+          import sys
+
+          print(json.dumps({
+              "message": "⤴ Auto Updated README",
+              "content": pathlib.Path("readme-info/README.md").read_text(encoding="utf-8"),
+              "sha": sys.argv[1],
+              "branch": "main",
+          }))
+          PY

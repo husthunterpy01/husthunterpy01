@@ -47,6 +47,8 @@ jobs:
           new = "    edges = [{'node': {'primaryLanguage': {'name': r.language, 'color': None} if r.language else None}}\n             for r in Github(ghtoken).get_user().get_repos(type='owner') if not r.fork]\n    print(len(edges), 'owned repos, ', end='')\n\n    for repo in edges:"
           assert old in s, "language loop not found; upstream script changed"
           s = s.replace(old, new)
+          # Only used by the old title; indexing an empty list here is what raised IndexError.
+          s = s.replace("    most_language_repo = sorted_labels[0]\n", "")
           start = s.index('    title = "My 💖 languages " + most_language_repo')
           end = s.index("def getProfileViews")
           new = "\n".join([
@@ -56,6 +58,8 @@ jobs:
               r'        filled = round(d["percent"] / 5)',
               r'        bar = "█" * filled + "░" * (20 - filled)',
               r'''        rows.append(f"{d['name'][:14]:<14} {d['text']:>8}  {bar}  {d['percent']:>6}%")''',
+              r'    if not rows:',
+              r'        rows = ["(no language data found)"]',
               r'    return "```text\n" + title + "\n\n" + "\n".join(rows) + "\n```\n"',
           ]) + "\n\n\n"
           s = s[:start] + new + s[end:]

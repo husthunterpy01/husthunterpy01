@@ -41,6 +41,12 @@ jobs:
           p = "GenerateREADME.py"
           s = open(p, encoding="utf-8").read()
           s = s.replace("for label in sorted_labels:", "for label in sorted_labels[:5]:")
+          # The GraphQL repo list comes back empty/null for repos the token cannot resolve, leaving no languages.
+          # Build the same edge structure from the REST API (owned, non-fork repos) instead.
+          old = "    result = Query.runGithubGraphqlQuery(\n        repositoryListQuery.substitute(username=username, id=id))\n\n    for repo in result['data']['user']['repositories']['edges']:"
+          new = "    edges = [{'node': {'primaryLanguage': {'name': r.language, 'color': None} if r.language else None}}\n             for r in Github(ghtoken).get_user().get_repos(type='owner') if not r.fork]\n    print(len(edges), 'owned repos, ', end='')\n\n    for repo in edges:"
+          assert old in s, "language loop not found; upstream script changed"
+          s = s.replace(old, new)
           start = s.index('    title = "My 💖 languages " + most_language_repo')
           end = s.index("def getProfileViews")
           new = "\n".join([
